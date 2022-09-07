@@ -1,0 +1,321 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family : 'Ubuntu', sans empattement ;
+    box-sizing: border-box;
+}
+
+/* HEADER */
+header{
+    background: url("../IMG/banner.jpg");
+    background-size: cover;
+    height: 800px;
+}
+.menu{
+    padding-left: 8%;
+    padding-right: 8%;
+    height: 700px;
+}
+nav{
+ 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+.Logo{
+    font-size: 2.3em;
+    letter-spacing: 1px;
+}
+.lio, .metier{
+    color: #dc143c;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+ul li{
+    list-style-type: none;
+    margin-right: 40px;
+}
+.ul{
+    font-size: 1em;
+}
+.Logo:hover,.ul:hover{
+    color: #dc143c;
+}
+.lio:hover{
+    color: white;
+}
+
+.present{
+    margin-top: 200px;
+}
+.salut{
+    font-size: 2em;
+    color: white;
+}
+.Nom{
+    font-size: 5em;
+    color: white;
+}
+.Poste{
+    font-size: 2.6em;
+    margin-bottom: 15px;
+    color: white;
+}
+.btn{
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 500;
+    background: crimson;
+    padding: 10px 20px;
+    border-radius: 6px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: crimson;
+    border-image: initial;
+}
+.btn:hover{
+    background-color: transparent;
+    color: #dc143c;
+    border: 2px solid #dc143c;
+}
+/* HEADER */
+/* PREMIERE BOITE */
+.boite1, .boite3, .boite5{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 8%;
+}
+.propos{
+    font-size: 2em;
+    text-align: center;
+}
+.who{
+    text-align: center;
+    font-size: 1em;
+    margin-top: 9px;
+    color: #dc143c;
+    font-weight: bold;
+}
+
+.photo{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+
+.img{
+    display: flex;
+    justify-content: center;
+}
+
+
+.img_place{
+    width: 400px;
+    height: 400px;
+    background-image: url(../IMG/profile-1.jpg);
+    background-size: cover;
+}
+
+.parag{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 50%;
+    height: 300px;
+    margin-top: 30px;
+    margin-left: 100px;
+}
+h4{
+    font-size: 1.6em;
+}
+p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 1.1em;
+    font-weight: lighter;
+    line-height:  150%;
+}
+/* deuxieme BOITE */
+.boite2, .boite4{
+    padding: 8%;
+    background-color: black; 
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.my_form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.formation{
+    font-size: 2em;
+    text-align: center;
+    color: white;
+}
+.what{
+    text-align: center;
+    font-size: 1em;
+    margin-top: 9px;
+    color: #dc143c;
+    font-weight: bold;
+}
+
+.name_form{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.boite_info{
+    width: 370px;
+    height: 290px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: flex-end;
+    margin-top: 50px;
+    margin-right: 20px;
+    padding: 10px;
+    background-color: #222;
+    color: white;
+    border-radius: 10px;
+}
+.camara{
+    height: 350px;
+}
+/* troisieme boite */
+.compet{
+    display: flex;
+    margin-top: 50px;
+}
+.deux{
+    width: 50%;
+    margin-left: 0px;
+}
+.block{
+    background-image: none;
+    width: 50%;
+    justify-content: flex-start;
+    padding-left: 100px;
+}
+.language{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-image: none;
+    background-color: ;
+    width: 550px;
+}
+/* quatrieme boite */
+.kossia{
+    height: 310px;
+}
+.cercle{
+    height: 150px;
+    width: 150px;
+    background-color: aqua;
+    border-radius: 80px;
+    border: 5px solid #dc143c;
+}
+.Maquette{
+    background-image: url(../IMG/profile-2.png);
+    background-size: cover;
+}
+.Connexion{
+    background-image: url(../IMG/profile1.jpg);
+    background-size: cover;
+}
+.CV{
+    background-image: url(../IMG/profile-5.jpg);
+    background-size: cover;
+}
+h2{
+    text-align: center;
+    margin-top: 10px;
+}
+/* cinquieme boite */
+.Joel, .dialogue, .boited{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.icon{
+    display: flex;
+    align-items: center;
+}
+/* ICON */
+.fa-solid{
+    color: #dc143c;
+    margin-bottom: 15px;
+    margin-right: 35px;
+}
+.first{
+    height: 70px;
+    margin-bottom: 10px;
+}
+/* ICON */
+.email{
+    color: black;
+}
+form{
+    width: 50%;
+    margin-left: 100px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #D3D3D3;
+    height: 50px;
+}
+.form{
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+}
+.sms {
+    margin-left: 10px;
+}
+.mms{
+    height: 100px;
+}
+.btn{
+    height: 50px;
+    background-color: #dc143c;
+    color: white;
+}
+
+/* footer */
+footer{
+    padding-left: 8%;
+    padding-right: 8%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: black;
+}
